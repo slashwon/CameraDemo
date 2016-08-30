@@ -16,12 +16,12 @@ import java.io.IOException;
  * 一个调用系统相机的功能类
  * Created by Administrator on 2016/8/16.
  */
-public class CameraUtil {
+public class CameraWrapper {
 
     private final Context context;
     private Camera camera;
 
-    public CameraUtil(Context context){
+    public CameraWrapper(Context context){
         this.context = context;
     }
     /**
